@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Ramaraja&family=Red+Hat+Display&family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fredoka, sans-serif;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+}
+a {
+-webkit-transition: .3s all ease;
+-o-transition: .3s all ease;
+transition: .3s all ease; }
+a:hover {
+    text-decoration: none !important; }
+
+h2 {
+font-size: 20px; }
+
+.form-block {
+background: #fff;
+padding: 40px;
+-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);; }
+
+.first {
+    margin-bottom: 30px;
+}
+
+.content .contents .form-group, .content .bg .form-group {
+    position: relative; }
+    .content .contents .form-group label, .content .bg .form-group label {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .content .contents .form-group input, .content .bg .form-group input {
+    background: transparent;
+    border-bottom: 1px solid #ccc; }
+    .content .contents .form-group.first, .content .bg .form-group.first {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; }
+    .content .contents .form-group.last, .content .bg .form-group.last {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; }
+    .content .contents .form-group label, .content .bg .form-group label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 0;
+    color: #b3b3b3; }
+    .content .contents .form-group.focus, .content .bg .form-group.focus {
+    background: #fff; }
+    .content .contents .form-group.field--not-empty label, .content .bg .form-group.field--not-empty label {
+    margin-top: -25px; }
+.content .contents .form-control, .content .bg .form-control {
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 0; }
+    .content .contents .form-control:active, .content .contents .form-control:focus, .content .bg .form-control:active, .content .bg .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.content .bg {
+background-size: cover;
+background-position: center; }
+
+.content a {
+color: #888;
+text-decoration: underline; }
+
+.content .btn {
+padding-left: 30px;
+padding-right: 30px; }
+
+.content .forgot-pass {
+position: relative;
+top: 2px;
+font-size: 14px; }
+
+.content .btn-pill {
+border-radius: 30px; }
+
+
+
